@@ -1,72 +1,115 @@
 <!DOCTYPE html>
+<!--link naar css pagina-->
 <link rel="stylesheet" href="indexcss.css">
+<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+
+<!--SITE SCALE-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
+
+<!--PAGINA TITEL-->
 <head>
     <meta charset="UTF-8">
     <title>BierHier</title>
 </head>
+
+<!--PAGINA INHOUD-->
 <body>
 
+<!--HEADER/NAVIGATIE BAR-->
 <div id="intro">
     <ul>
-        <li><a href=""><img src="img/header-home.jpg"></a></li>
+        <li><a class="homepage" href=""><img src="img/header-home.jpg"></a></li>
         <li><a href=""><img src="img/header-concerten.jpg"/></a></li>
         <li><a href=""><img src="img/header-sport.jpg"/></a></li>
         <li><a href=""><img src="img/header-recepten.jpg"/></a></li>
         <li><a href=""><img src="img/header-contact.jpg"/></a></li>
     </ul>
-    <!--Koptekst-->
 </div>
 
-<!--TEXT COLUMN 1-->
+<!--COLUMN 1/3-->
 <div class="col1">
+
+    <!--KOPTEKST-->
     <h1>Nieuws uit Almere Buiten</h1>
     <div class="col2">
-        <!--newsfeed-->
-        <iframe src="https://www.omroepflevoland.nl/nieuws/152526/almere-inwoners-buiten-boos-over-plan-coffeeshop"
-        width="400" height="300" frameborder="0" style="border:0"></iframe>
+
+        <!--NEWSFEED-->
+        <iframe src="http://www.omroepflevoland.nl/nieuws"
+        width="390" height="300" frameborder="0" style="border:0"></iframe>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Phasellus dapibus ultricies nulla, eu bibendum ex egestas eu.
             Sed ornare, velit efficitur pellentesque consectetur, dolor mauris ultrices ligula,
             quis dignissim nunc est et velit. Sed quis velit viverra, gravida odio in, eleifend odio.
             Ut a pellentesque tortor. Quisque euismod eget nisi eget ultricies.
+
         </p>
     </div>
 
-    <!--TEXT COLUMN 2-->
+    <!--COLUMN 2/3-->
     <div class="col2">
+
+        <!--Lorem Ipsum-->
         <p>
             Curabitur vel convallis odio. Suspendisse mattis velit a urna congue, eget suscipit sem bibendum.
-        </p>
-        <!--image-->
-        <img src="img/Stadcentrum_kl.jpg" height="223" width="370"/>
 
+        </p>
+
+        <!--IMAGE-->
+        <img src="img/home-foto1.jpg"/>
+
+        <!--Lorem Ipsum-->
         <p>
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce in accumsan elit.
-            Pellentesque ultrices condimentum ante eu pretium. Vivamus vitae accumsan lorem, eget elementum lacus.
-            In euismod ante id blandit dictum.
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Fusce in accumsan elit. Pellentesque ultrices condimentum ante eu pretium.
+            Vivamus vitae accumsan lorem, eget elementum lacus. In euismod ante id blandit dictum.
+            Proin luctus mollis ligula ut venenatis.Proin luctus mollis ligula ut venenatis.
+
         </p>
     </div>
 
-    <!--TEXT COLUMN 3-->
+    <!--COLUMN 3/3-->
     <div class="col3">
-        <h3>Stagelopen in Almere</h3>
+
+        <!--TUSSENKOP-->
+        <h3>Stages Webdevelopment</h3>
+
+        <ul>
+            <li><a class="homepage"
+                   href="https://www.indeed.nl/vacatures?q=webdevelopment&jt=internship&l=Almere&radius=5">
+                Stages Almere</a></li>
+            <li><a href="https://www.indeed.nl/vacatures?q=Webdevelopment&l=Amsterdam&radius=0&jt=internship">
+                Stages Amsterdam</a></li>
+            <li><a href="https://www.indeed.nl/vacatures?q=Webdevelopment&l=Utrecht&jt=internship">
+                Stages Utrecht</a></li>
+            <li><a href="https://www.indeed.nl/vacatures?q=Webdevelopment&jt=internship&l=Amersfoort&radius=0">
+                Stages Amersfoort</a></li>
+            <li><a href="https://www.indeed.nl/vacatures?q=Webdevelopment&l=Breda&jt=internship">
+                Stages Breda</a></li>
+            <li><a href="https://www.indeed.nl/vacatures?q=Webdevelopment&l=Rotterdam&jt=internship">
+                Stages Rotterdam</a></li>
+        </ul>
+
+        <!--Lorem Ipsum-->
         <p>
-            Proin luctus mollis ligula ut venenatis.Proin luctus mollis ligula ut venenatis.
             Donec ac nisl in ipsum fringilla molestie eget eu nibh. Integer a nunc faucibus,
-            mollis ipsum in, aliquet eros. Suspendisse non dictum felis. Suspendisse et mi justo.
-            Fusce cursus porta nunc, quis mattis ipsum consectetur id.
-            <br>
+            mollis ipsum in, aliquet eros.  <br><br>
+
             <!--IMAGE COLUMN 3-->
-            <img src="img/Defense_UNStudio.jpg" height="223" width="370"/>
-            Integer sit amet elementum nisl. Integer faucibus pulvinar sodales.</p>
+            <img src="img/home-foto2.jpg"/>
+
+            <!--Lorem Ipsum-->
+            Integer sit amet elementum nisl. Integer faucibus pulvinar sodales.
+
+
+        </p>
     </div>
 </div>
 
+<!--FOOTER/NAVIGATIE BAR-->
 <footer>
-    <div class="col1">
+    <div class="col-1">
     <div class="col2">
 
         <p>
@@ -84,7 +127,7 @@
         </p>
     </div>
 
-    <div class="col2">
+    <div class="col-2">
         <p>
             ___________________
             <br>
@@ -98,9 +141,9 @@
         copyright © roc-dev.com 2017
         </p>
     </div>
-        <div class="col-3">
-            <br>
-        <img src="img/frogs-897981_640.jpg" height="100" width="200"/>
+        <div class="col-3"><br>
+
+        <img src="img/Groepsfoto.jpg" height="100" width="200"/>
         </div>
     </div>
 </footer>
