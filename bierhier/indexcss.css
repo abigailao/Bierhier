@@ -2,17 +2,20 @@
 html{
     height: 100%;
     background-color: lightgray;
-    background-image: url("img/achtergrond.jpg");
-    background-repeat: repeat;
+    background-image: url("img/orangesparkle.jpg");
+    background-size: cover;
 }
 
 /*BODY - HEADER*/
+
+/*Header-toolbar Homepage mag op ander formaat. afgesproken op 30/10/2017 */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    background-image: url("img/orangesparkle-v2.jpg");
 }
 
 li {
@@ -33,8 +36,8 @@ li a:hover:not(.active) {
 
 /*BODY - POSITION*/
 body {
-    font-size: small;
-    font-family: Arial, SansSerif;
+    font-size: medium;
+    font-family: abel, SansSerif, serif;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
@@ -54,12 +57,23 @@ body {
 
 /*FOOTER*/
 footer {
-    position: absolute;
-    width:100%;
-    height:18%;
-    bottom: 0;
     color: white;
-    background-color: darkgray;  }
+    /*position:fixed;*/
+    bottom:0;
+    min-height: 1%;
+    width: 98%;
+    clear: both;
+    padding: 15px;
+    background-color: darkgrey;
+    float: left;
+}
+/*footer {*/
+    /*position: absolute;*/
+    /*width:100%;*/
+    /*height: 18%;*/
+    /*bottom: 0;*/
+    /*color: white;*/
+    /*background-color: darkgray;  }*/
 .col-1 { width: 97%; max-width: 1280px; min-width: 320px; margin: 0 auto; clear: both; }
 .col-2 { float: left; width: 30.8%; margin-right: 3.8%; }
 .col-3 { margin-right: 0; text-align: center}
